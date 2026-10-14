@@ -1,0 +1,14 @@
+# Checkpoint model
+class: Checkpoint
+fields:
+  checkpointId: String
+  jobId: String
+  satelliteId: String
+  progress: double
+  sizeMb: double
+  state: String
+  transferBandwidthMbps: double
+  transferProgress: double
+  sourceSatelliteId: String?
+  destinationSatelliteId: String?
+  timestamp: DateTime

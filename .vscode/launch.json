@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "orbit_scheduler_flutter",
+            "cwd": "${workspaceFolder}/orbit_scheduler_flutter",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "orbit_scheduler_server",
+            "cwd": "${workspaceFolder}/orbit_scheduler_server",
+            "request": "launch",
+            "type": "dart",
+            "preLaunchTask": "docker_compose_up",
+            "program": "bin/main.dart",
+            "env": {
+                "SERVERPOD_PASSWORD_database": "LnTr6GWeIH1m39EQqioZtIWOVJLcxoDC"
+            },
+            "args": [
+                "--apply-migrations"
+            ]
+        }
+    ],
+    "compounds": [
+        {
+            "name": "orbit_scheduler (full stack)",
+            "configurations": [
+                "orbit_scheduler_server",
+                "orbit_scheduler_flutter"
+            ],
+            "presentation": {
+                "order": 1
+            }
+        }
+    ]
+}

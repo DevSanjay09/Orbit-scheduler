@@ -1,0 +1,12 @@
+# Fault Event model
+class: FaultEvent
+fields:
+  eventId: String
+  eventType: String
+  targetSatelliteId: String
+  secondaryTargetSatelliteId: String?
+  description: String
+  impactSeverity: String
+  occurredAt: DateTime
+  resolved: bool
+  recoveryActionTaken: String?

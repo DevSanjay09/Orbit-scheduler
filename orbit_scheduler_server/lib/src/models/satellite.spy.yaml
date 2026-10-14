@@ -1,0 +1,27 @@
+# Satellite model
+class: Satellite
+fields:
+  satelliteId: String
+  planeIndex: int
+  slotIndex: int
+  altitudeKm: double
+  inclinationDeg: double
+  trueAnomalyDeg: double
+  latitude: double
+  longitude: double
+  velocityKmh: double
+  inSunlight: bool
+  solarFluxFraction: double
+  batteryCapacityWh: double
+  batterySoC: double
+  batteryPowerNetW: double
+  temperatureC: double
+  thermalHeadroom: double
+  isThrottled: bool
+  throttleRatio: double
+  totalComputeTFlops: double
+  allocatedComputeTFlops: double
+  activeJobIds: List<String>
+  status: String
+  lastFaultReason: String?
+  updatedAt: DateTime

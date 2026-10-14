@@ -1,0 +1,11 @@
+# Link Window model
+class: LinkWindow
+fields:
+  sourceSatelliteId: String
+  targetSatelliteId: String
+  linkType: String
+  isOpen: bool
+  distanceKm: double
+  bandwidthMbps: double
+  lossRisk: double
+  validUntil: DateTime

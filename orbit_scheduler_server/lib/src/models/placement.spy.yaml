@@ -1,0 +1,11 @@
+# Placement model
+class: Placement
+fields:
+  placementId: String
+  jobId: String
+  satelliteId: String
+  startTime: DateTime
+  endTime: DateTime?
+  predictedSafeWindowSeconds: double
+  reason: String
+  status: String

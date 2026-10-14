@@ -1,0 +1,24 @@
+# Workload Job model
+class: Job
+fields:
+  jobId: String
+  name: String
+  priority: String
+  totalRuntimeSeconds: double
+  completedRuntimeSeconds: double
+  progress: double
+  requiredComputeTFlops: double
+  state: String
+  currentSatelliteId: String?
+  targetSatelliteId: String?
+  migrationCount: int
+  maxAllowedMigrations: int
+  checkpointIntervalSeconds: double
+  lastCheckpointTime: DateTime?
+  lastCheckpointProgress: double
+  checkpointSizeBytes: double
+  cooldownUntil: DateTime?
+  wastedComputeSeconds: double
+  createdAt: DateTime
+  deadline: DateTime?
+  missedDeadline: bool

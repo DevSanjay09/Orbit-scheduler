@@ -1,0 +1,13 @@
+# Decision Log Entry model
+class: DecisionLogEntry
+fields:
+  entryId: String
+  timestamp: DateTime
+  actionType: String
+  jobId: String?
+  sourceSatelliteId: String?
+  targetSatelliteId: String?
+  reasonCode: String
+  explanation: String
+  previousHash: String
+  currentHash: String

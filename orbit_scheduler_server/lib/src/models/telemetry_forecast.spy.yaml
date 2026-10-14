@@ -1,0 +1,10 @@
+# Telemetry Forecast model
+class: TelemetryForecast
+fields:
+  satelliteId: String
+  timestamps: List<DateTime>
+  batterySoCList: List<double>
+  temperatureList: List<double>
+  inSunlightList: List<bool>
+  predictedSafeWindowSeconds: double
+  linkWindows: List<LinkWindow>

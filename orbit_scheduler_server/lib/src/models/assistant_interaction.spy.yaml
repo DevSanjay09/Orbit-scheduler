@@ -1,0 +1,9 @@
+# Assistant Interaction model
+class: AssistantInteraction
+fields:
+  userPrompt: String
+  parsedConstraintType: String
+  parsedParamValue: double
+  naturalLanguageExplanation: String
+  generatedPolicy: Policy?
+  requiresConfirmation: bool

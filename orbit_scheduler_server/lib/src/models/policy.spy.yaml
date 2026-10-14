@@ -1,0 +1,12 @@
+# Policy model
+class: Policy
+fields:
+  policyId: String
+  name: String
+  naturalLanguagePrompt: String
+  constraintType: String
+  parameterValue: double
+  rawJsonRules: String
+  isActive: bool
+  operatorConfirmed: bool
+  createdAt: DateTime

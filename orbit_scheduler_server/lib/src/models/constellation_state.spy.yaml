@@ -1,0 +1,15 @@
+# Constellation State snapshot model
+class: ConstellationState
+fields:
+  timestamp: DateTime
+  simTimeSeconds: double
+  sunAngleDeg: double
+  satellites: List<Satellite>
+  activeJobs: List<Job>
+  activeLinks: List<LinkWindow>
+  recentFaults: List<FaultEvent>
+  recentDecisions: List<DecisionLogEntry>
+  statsTotalComputeTFlops: double
+  statsUsedComputeTFlops: double
+  statsAverageTempC: double
+  statsAverageBatterySoC: double

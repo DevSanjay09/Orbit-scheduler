@@ -1,0 +1,38 @@
+emailIdp:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+benchmark:
+  - runBenchmarks:
+constellation:
+  - getState:
+  - streamState:
+  - getSatelliteForecast:
+  - setSimSpeed:
+decisionLog:
+  - search:
+  - verifyHashChain:
+  - streamDecisions:
+fault:
+  - triggerFault:
+  - listRecentFaults:
+  - streamFaults:
+job:
+  - listJobs:
+  - submitJob:
+  - listCheckpoints:
+policy:
+  - listPolicies:
+  - askAssistant:
+  - confirmPolicy:
+  - togglePolicy:
+  - explainDecision:
+greeting:
+  - hello:

@@ -1,0 +1,16 @@
+# Benchmark Run model
+class: BenchmarkRun
+fields:
+  runId: String
+  seed: int
+  schedulerAlgorithm: String
+  jobCompletionRate: double
+  deadlineMissRate: double
+  wastedComputeHours: double
+  energyUtilization: double
+  migrationOverheadSec: double
+  totalJobs: int
+  completedJobs: int
+  failedJobs: int
+  totalSimTimeSec: double
+  createdAt: DateTime
